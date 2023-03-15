@@ -18,3 +18,4 @@ yotta_modules
 yotta_targets
 Doxyfile
 .idea
+cmake-build-debug

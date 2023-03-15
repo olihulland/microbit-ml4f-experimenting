@@ -1,0 +1,449 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/MICROBIT"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_libraries",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libraries/codal/utils/cmake/buildtools/codal.cmake",
+			"CMakeLists.txt",
+			"libraries/codal-microbit-v2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 277,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 59,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 204,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-expansion-to-defined -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -fno-exceptions -fno-unwind-tables -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -std=c++11 -fwrapv -fno-rtti -fno-threadsafe-statics -fno-exceptions -fno-unwind-tables -Wl,--gc-sections -Wl,--sort-common -Wl,--sort-section=alignment -Wno-array-bounds -include /Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/codal_extra_definitions.h -I/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal/utils/cmake/toolchains/ARM_GCC -g -fdiagnostics-color=always   -DAPP_TIMER_V2 -DAPP_TIMER_V2_RTC1_ENABLED -DNRF_DFU_TRANSPORT_BLE=1 -DNRF52833_XXAA -DNRF52833 -DTARGET_MCU_NRF52833 -DNRF5 -DNRF52833 -D__CORTEX_M4 -DS113 -DTOOLCHAIN_GCC -D__START=target_start"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "MICROBIT_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/source"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/inc/bluetooth"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/inc/compat"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/model"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-nrf52/inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-nrf52/inc/cmsis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-nrf52/nrfx/mdk"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-nrf52/nrfx"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-nrf52/nrfx/templates"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-nrf52/nrfx/templates/nRF52833"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-nrf52/nrfx/drivers/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-nrf52/nrfx/drivers/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-core/./inc/core"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-core/./inc/driver-models"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-core/./inc/drivers"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-core/./inc/streams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-core/./inc/types"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/../codal-nrf52/nrfx/hal"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/sdk_config"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/pwr_mgmt"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/dfu"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/timer"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/mutex"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/delay"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/ble_dfu"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers/nrf52"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/svc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "codal-microbit-v2::@ced4f9ea2904b0ab8ddc"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "codal-core::@865c7f44b9f94394cc17"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "codal-nrf52::@240736e341a58b5998af"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "codal-microbit-nrf5sdk::@dd1d726e1dcdb3aa61d2"
+		}
+	],
+	"id" : "MICROBIT::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wno-expansion-to-defined -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -fno-exceptions -fno-unwind-tables -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -std=c++11 -fwrapv -fno-rtti -fno-threadsafe-statics -fno-exceptions -fno-unwind-tables -Wl,--gc-sections -Wl,--sort-common -Wl,--sort-section=alignment -Wno-array-bounds -include /Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/codal_extra_definitions.h -I/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal/utils/cmake/toolchains/ARM_GCC -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--no-wchar-size-warning -Wl,--gc-sections -Wl,--wrap,atexit -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -Wl,--end-group -T\"/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/ld/nrf52833.ld\"",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/libcodal-microbit-v2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/libcodal-core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/libcodal-nrf52.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/libcodal-microbit-nrf5sdk.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/libcodal-nrf52.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/build/libcodal-core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/lib/bootloader.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/lib/mbr.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/lib/settings.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/lib/softdevice.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/oliverhulland/Desktop/MicrobitStuff/Wk_5/ml4f-on-microbit/libraries/codal-microbit-v2/lib/uicr.o",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MICROBIT",
+	"nameOnDisk" : "MICROBIT",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "source/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "source/ml4f.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "source/model.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
